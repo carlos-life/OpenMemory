@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "openmemory"
+version = "0.1.0"
+description = "Open-source local MCP Server providing cross-application long-term memory for AI applications"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.optional-dependencies]
+embeddings = ["numpy"]
+openai = ["openai"]
+dev = ["pytest"]
+
+[project.scripts]
+openmemory-server = "openmemory.server:main"
