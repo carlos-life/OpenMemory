@@ -148,6 +148,13 @@ pytest tests/ -v
 
 64 tests covering models, storage engine, and MCP server tools.
 
+## Contributors
+
+| | |
+|---|---|
+| [**Carlos**](https://github.com/carlos-life) | Creator & maintainer |
+| [**Claude Opus 4.6**](https://claude.ai) | AI pair programmer |
+
 ## License
 
 MIT
@@ -264,6 +271,13 @@ pytest tests/ -v
 ```
 
 共 64 个测试，覆盖数据模型、存储引擎和 MCP 服务器工具。
+
+## 贡献者
+
+| | |
+|---|---|
+| [**Carlos**](https://github.com/carlos-life) | 作者 & 维护者 |
+| [**Claude Opus 4.6**](https://claude.ai) | AI 协作开发 |
 
 ## 许可证
 
